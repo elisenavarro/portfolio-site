@@ -1,5 +1,11 @@
 {
   "name": "portfolio-site",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "@rails/webpacker": "4.2.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.8.4",
+    "webpack-dev-server": "^3.10.3"
+  }
 }
