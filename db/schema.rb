@@ -10,10 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_02_27_175203) do
+ActiveRecord::Schema.define(version: 2020_02_27_190928) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "project_images", force: :cascade do |t|
+    t.bigint "project_id"
+    t.string "image_url"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["project_id"], name: "index_project_images_on_project_id"
+  end
 
   create_table "projects", force: :cascade do |t|
     t.string "title"
@@ -26,4 +34,5 @@ ActiveRecord::Schema.define(version: 2020_02_27_175203) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "project_images", "projects"
 end
