@@ -4,11 +4,8 @@
 }
 
 .navbar-portfolio .navbar-logo {
-  width: 40px;
-}
-
-.nav-links {
-
+  color: light-gray;
+  text-decoration: none;
 }
 
 .nav-links ul {
@@ -19,18 +16,19 @@
 }
 
 li {
-  display: inline;
+  float: right;
 }
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color to gray on hover */
 li a:hover {
-  background-color: #111;
+  color: gray;
+  text-decoration: none
 }
