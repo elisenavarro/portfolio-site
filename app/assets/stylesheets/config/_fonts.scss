@@ -1,9 +1,9 @@
 // Import Google fonts
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
-
+@import url("https://fonts.googleapis.com/css?family=Chivo:300i,400,700,900|Overpass:300,400,600,700&display=swap");
 // Define fonts for body and headers
-$body-font: "Open Sans", "Helvetica", "sans-serif";
-$headers-font: "Raleway", "Helvetica", "sans-serif";
+$body-font: "Overpass", "Helvetica", "sans-serif";
+$headers-font: "Chivo", "Helvetica", "sans-serif";
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
@@ -14,3 +14,54 @@ $headers-font: "Raleway", "Helvetica", "sans-serif";
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+
+// Font Scale Major Third
+  // 68.66px
+  // 43.95px
+  // 35.16px
+  // 28.13px
+  // 22.50px
+  // 18.00px
+
+// MAIN HEADER
+h1 {
+  font-family: Chivo, sans-serif;
+  font-weight: 700;
+  color: light-gray;
+  font-size: 68.66px;
+}
+
+// SUB HEADER
+h2 {
+  font-family: Chivo, sans-serif;
+  font-weight: 700;
+  font-size: 35.16px;
+}
+
+h3 {
+  font-family: Chivo, sans-serif;
+  font-weight: 400;
+  font-size: 22.50px;
+}
+
+h4 {
+  font-family: Overpass, sans-serif;
+  font-weight: 600;
+  font-size: 22.50px;
+}
+
+p {
+  font-family: Overpass, sans-serif;
+  font-weight: 300;
+  font-size: 18.00;
+}
+
+a {
+  text-decoration: none;
+}
+
+.txt {
+  font-family: Overpass, sans-serif;
+  font-size: 12.00;
+  font-weight: 400;
+}
