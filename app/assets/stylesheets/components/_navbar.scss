@@ -1,3 +1,11 @@
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
 .navbar-portfolio {
   justify-content: space-between;
   background: white;
@@ -10,6 +18,7 @@
 .navbar-portfolio .navbar-logo {
   color: gray;
   margin-bottom: 0px;
+  z-index: 11;
 }
 
 .nav-links ul {
@@ -38,20 +47,20 @@ li a:hover {
 }
 
 
-// @media(max-width: 768px) {
-//   .small-device-nav {
-//     display: flex;
-//   }
+@media(max-width: 768px) {
+  .small-device-nav {
+    display: flex;
+  }
 
-//   .navbar-logo {
-//     left: 16px;
-//     position: fixed;
-//     width: 100%;
-//     text-align: center;
-//     left: 0px;
-//   }
+  .navbar-logo {
+    left: 16px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    left: 0px;
+  }
 
-//   .nav-links {
-//     display: none;
-//   }
-// }
+  .nav-links {
+    display: none;
+  }
+}

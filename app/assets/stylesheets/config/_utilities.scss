@@ -1,7 +1,21 @@
-.main-container {
-  margin: auto;
+.body-container {
+  margin: 80px 50px 30px 50px;
   padding: 0px;
   overflow: hidden;
   display: block;
   position: relative;
+}
+
+.container {
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 0px;
+  width: 90%;
+}
+
+
+@media(max-width: 768px) {
+  .container {
+    width: 96%;
+  }
 }
