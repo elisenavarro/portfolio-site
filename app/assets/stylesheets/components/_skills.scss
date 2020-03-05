@@ -9,16 +9,16 @@
 }
 
 .p-link {
-  color: #2F88A3;
+  color: $sand;
   font-weight: bold;
   &:hover {
-    color: #2F88A3;
+    color: $light-gray;
   }
 }
 
 .skills-list {
   display: flex;
-  background-color: #023F5C;
+  background-color: $sand;
   right: 0px;
   padding: 40px;
   margin-left: 40px;
@@ -29,6 +29,7 @@
       margin-bottom: 20px;
     }
     li {
+      display: block;
       margin: -8px 0px;
       p {
         color: rgba(255, 255, 255, 0.5);
