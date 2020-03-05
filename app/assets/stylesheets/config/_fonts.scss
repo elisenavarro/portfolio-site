@@ -27,10 +27,9 @@ $headers-font: "Chivo", "Helvetica", "sans-serif";
 // MAIN HEADER
 h1 {
   font-family: Chivo, sans-serif;
-  font-weight: 700;
-  color: $light-gray;
+  font-weight: 700 !important;
+  color: black;
   font-size: 68.66px !important;
-  font-style: bold;
 }
 
 // SUB HEADER
@@ -42,8 +41,8 @@ h2 {
 
 h3 {
   font-family: Chivo, sans-serif;
-  font-weight: 400;
-  font-size: 22.50px;
+  font-weight: 400 !important;
+  font-size: 22.50px !important;
 }
 
 h4 {
