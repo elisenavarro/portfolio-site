@@ -75,6 +75,18 @@
     <div class="projects">
       <h2>Projects</h2>
     </div>
+    <div class="project-cards row">
+      <!-- add each project -->
+      <% @projects.each do |project| %>
+      <div class="column">
+        <%= link_to project_path(project) do %>
+        <div class="project-card">
+          <div class="project-card-txt">
+            <p>Web Based Mobile App</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div class="container">
