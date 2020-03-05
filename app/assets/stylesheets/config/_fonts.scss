@@ -1,6 +1,7 @@
 // Import Google fonts
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
 @import url("https://fonts.googleapis.com/css?family=Chivo:300i,400,700,900|Overpass:300,400,600,700&display=swap");
+@import "colors";
 // Define fonts for body and headers
 $body-font: "Overpass", "Helvetica", "sans-serif";
 $headers-font: "Chivo", "Helvetica", "sans-serif";
@@ -27,8 +28,9 @@ $headers-font: "Chivo", "Helvetica", "sans-serif";
 h1 {
   font-family: Chivo, sans-serif;
   font-weight: 700;
-  color: light-gray;
-  font-size: 68.66px;
+  color: $light-gray;
+  font-size: 68.66px !important;
+  font-style: bold;
 }
 
 // SUB HEADER
