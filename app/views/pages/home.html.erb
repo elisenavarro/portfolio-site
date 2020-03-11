@@ -58,12 +58,12 @@
         <div class="skills-product">
           <h4>Additional Skills</h4>
           <ul class="list-unstyled">
-            <li><p>Proguct Management</p></li>
-            <li><p>Digital Marketing Strategy</p></li>
+            <li><p>Product Management</p></li>
             <li><p>Data Analysis</p></li>
-            <li><p>Scrum/Agile Methodology</p></li>
             <li><p>UX/UI Design</p></li>
-            <li><p>Public Speaking/Instructing</p></li>
+            <li><p>Digital Marketing Strategy</p></li>
+            <li><p>Scrum/Agile Methodology</p></li>
+            <li><p>Public Speaking & Teaching</p></li>
             <li><p>Spanish (Intermediate)</p></li>
           </ul>
         </div>
@@ -80,13 +80,14 @@
       <% @projects.each do |project| %>
       <div class="column">
         <%= link_to project_path(project) do %>
-        <div class="project-card">
-          <div class="project-card-txt">
-            <p>Web Based Mobile App</p>
+          <div class="project-card">
+            <div class="project-card-txt">
+              <p>Web Based Mobile App</p>
+            </div>
           </div>
-        </div>
+        <% end %>
       </div>
-    </div>
+    <% end %>
   </div>
 
   <div class="container">
