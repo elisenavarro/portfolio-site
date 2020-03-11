@@ -81,7 +81,11 @@
       <div class="column">
         <%= link_to project_path(project) do %>
           <div class="project-card">
+            <!-- add proj image -->
+            <%= image_tag project.image_gallery, alt: "Project image" %>
             <div class="project-card-txt">
+              <!-- add proj details -->
+              <h3><%= project.title %></h3>
               <p>Web Based Mobile App</p>
             </div>
           </div>
@@ -89,6 +93,7 @@
       </div>
     <% end %>
   </div>
+</div>
 
   <div class="container">
     <div class="contact-me">
