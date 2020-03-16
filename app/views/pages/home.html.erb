@@ -70,31 +70,34 @@
       </div>
     </div>
   </div>
-
   <div class="container">
     <div class="projects">
-      <h2>Projects</h2>
-    </div>
-    <div class="project-cards row">
-      <% @projects.each do |project| %>
-        <div class="column">
-          <%#= link_to project_path(project) do %>
-          <div class="project-card">
-            <%= image_tag project.image_gallery, alt: "Project image" %>
-              <div class="project-card-txt">
-                <h3><%= project.title %></h3>
-                <p>Web Based Mobile App</p>
+      <div>
+        <h2>Projects</h2>
+        <p class="p-projects" style="width: 280px;">Here are a few projects I've designed and built during development sprints at Le Wagon.</p>
+      </div>
+      <div class="project-cards row">
+        <% @projects.each do |project| %>
+          <div class="column">
+            <%= link_to project_path(project) do %>
+            <div class="project-card">
+              <%= image_tag project.image_gallery, alt: "Project image" %>
+                <div class="project-card-txt">
+                  <h3><%= project.title %></h3>
+                  <p>Web Based Mobile App</p>
+                </div>
               </div>
             <% end %>
-           </div>
-        </div>
-      <%# end %>
+          </div>
+        <% end %>
+      </div>
     </div>
   </div>
-
   <div class="container">
     <div class="contact-me">
       <h2>Let's Connect</h2>
+      <p>Interested in working together? Drop me a line.</p>
+      <p>elise.marie.navarro@gmail.com</p>
     </div>
   </div>
 </div>
