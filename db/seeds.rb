@@ -8,5 +8,6 @@
 
 hivie = Project.create(title: 'HiVie', description: 'A mobile-first web application, HiVie is a dating app for HIV posive persons seeking a safe, anonymous space to connect and find love.', image_gallery: 'HiVie.png', tagline: "It's about how you live.", site_url: 'https://www.hivie.life/', source_url: 'https://github.com/Hamzif/HiVie')
 
-hivie_img_1 = Project.create(project: hivie, image_url: 'HiVie_1.png')
-
+hivie_img1 = Project.create(project: hivie, image_url: 'HiVie_1.png')
+hivie_img2 = Project.create(project: hivie, image_url: 'HiVie_2.png')
+hivie_img3 = Project.create(project: hivie, image_url: 'HiVie_3.png')

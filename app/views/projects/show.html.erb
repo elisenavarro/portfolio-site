@@ -1,1 +1,41 @@
-<h1>Projects</h1>
+<div class="body-container">
+  <div class="container">
+    <%= image_tag (@projcect.image_gallery), alt: "Project Image", class: "home-intro-background", style: "object-fit: cover" %>
+    <h1 class="intro-h1"><%= @project.title %></h1>
+    <h3 class="container" style="margin-top: -18px"><%= @web_project.tagline %></h3>
+    <div class="arrow">
+      <p class="arrow-txt">Scroll</p>
+      <i class="fas fa-long-arrow-alt-down"></i>
+    </div>
+  </div>
+
+  <div class="container">
+    <%= link_to :back do %>
+      <div class="back-arrow">
+        <i class="fas fa-long-arrow-alt-left"></i>
+        <h4 class="txt">Back</h4>
+      </div>
+    <% end %>
+    <div class="skills">
+      <h2>About</h2>
+      <div class="about-project">
+        <p><%= @project.description %></p>
+        <div class="project-links">
+          <a target="_blank", href=<%= @project.site_url %> , class="txt project-btn site-btn">Visit Project</a>
+          <a target="_blank", href=<%= @project.source_url %> , class="txt project-btn source-btn">View Source</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-gallery">
+      <h2>Gallery</h2>
+      <div class="show-imgs row">
+        <%= @project_images.each do |image| %>
+          <div class="column">
+            <%= image_tag image.image_url alt: "#", class: "show-img" %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

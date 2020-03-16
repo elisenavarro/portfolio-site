@@ -1,46 +1,97 @@
-.projects {
-  padding-top: 80px;
+.back-arrow {
+  z-index: 12;
   display: flex;
-  width: 100%;
+  position: fixed;
+  top: 50%;
+  left: 60px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+  h4 {
+    color: black;
+    padding-left: 8px;
+  }
 }
 
-.project-cards {
+.project-links {
+  padding: 16px 40px;
+}
+
+.site-btn {
+  background-color: #1C1A20;
+  color: rgb(248, 248, 248);
+  margin-right: 16px;
+  &:hover {
+    color: rgb(248, 248, 248);
+  }
+}
+
+.source-btn {
+  outline: solid 1px #1C1A20;
+  outline-offset: -1px;
+  &:hover {
+    color: #1C1A20;
+  }
+}
+
+.image_gallery {
+  display: flex;
+  margin: 160px 0px 96px 0px;
+}
+
+.show-imgs {
   display: grid;
-  grid-template-columns: 1fr 1fr, 1fr;
-  grid-gap: 16px;
-  column-gap: 40px;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
   width: 100%;
+  margin-left: 112px;
+  margin-right: 0px;
+  margin-bottom: 0px;
 }
 
-.project-card {
-  background-color: #023F5C;
-  position: relative;
-  width: auto;
-  height: 216px;
-  margin-bottom: 80px;
-  img {
-    width: 100%;
-    height: 216px;
-    object-fit: cover;
-  };
+.show-img {
+  width: 320px;
+  margin-bottom: 40px;
 }
 
-.project-card::after {
-  content: '';
-  position: absolute;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3));
-  z-index: 1;
+.about-project {
+  padding: 0px 16px;
+  margin-left: 144px;
+  margin-right: 16px;
 }
 
-.project-card-txt {
-  position: absolute;
-  padding: 40px;
-  z-index: 2;
-  h3 {
-    padding-bottom: 0px;
-    color: white;
-  };
-  p {
-    color: rgba(255, 255, 255, 0.5);
-  };
+
+@media(max-width: 768px) {
+  .back-arrow {
+    display: none;
+  }
+
+  .show-imgs {
+    display: block;
+    margin: 0px;
+  }
+
+  .show-img {
+    width: 92vw;
+  }
+
+  .image-gallery {
+    display: block;
+  }
+
+  .skills {
+    display: block;
+  }
+
+  .about-project {
+    margin: 0px;
+    padding: 0px;
+    padding: 0px 16px 0px 0px;
+  }
+
+  .project-links a {
+    display: block;
+    margin: 16px 0px 16px 0px;
+    text-align: center;
+  }
 }
