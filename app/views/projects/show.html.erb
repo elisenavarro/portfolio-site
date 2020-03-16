@@ -1,3 +1,7 @@
+<% content_for :meta_title, "#{@project.title} is on #{DEFAULT_META["meta_product_name"]}" %>
+<% content_for :meta_description, @project.description %>
+<% content_for :meta_image, image_path(@project.image_gallery) %>
+
 <div class="body-container">
   <div class="container">
     <%= image_tag (@projcect.image_gallery), alt: "Project Image", class: "home-intro-background", style: "object-fit: cover" %>

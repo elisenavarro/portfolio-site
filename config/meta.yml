@@ -1,0 +1,5 @@
+meta_product_name: "Elise Navarro's Portfolio"
+meta_title: "Elise Navarro - Portfolio"
+meta_description: "Elise Navarro's Portfolio | Showcasing Projects, Source Code and Work Experience."
+meta_image: "Sand.jpg" # should exist in `app/assets/images/`
+# twitter_account: "@product_twitter_account"   # required for Twitter Cards
