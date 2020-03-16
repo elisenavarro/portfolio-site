@@ -93,11 +93,30 @@
       </div>
     </div>
   </div>
+
   <div class="container">
     <div class="contact-me">
       <h2>Let's Connect</h2>
       <p>Interested in working together? Drop me a line.</p>
-      <p>elise.marie.navarro@gmail.com</p>
+      <br>
+      <form class="contact-form" accept-charset="utf-8" action="https://formspree.io/elise.marie.navarro@gmail.com" method="post">
+          <div class="form-first-row">
+            <input type="hidden" name="_subject" value="New Form Submission" />
+            <label> Full Name
+              <input type="text" name="name" class="form-field name-field">
+            </label>
+            <label> Email
+              <input type="text" name="_replyto" class="form-field email-field">
+            </label>
+          </div>
+          <br>
+          <label class="d-flex"> Message
+            <textarea name="message" class="form-field message-field"></textarea>
+          </label>
+          <br>
+          <button type="submit" class="site-btn project-btn txt">Send</button>
+        </form>
+      </div>
     </div>
   </div>
 </div>
