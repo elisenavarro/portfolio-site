@@ -18,9 +18,10 @@
 }
 
 .site-btn {
-  background-color: #1C1A20;
+  background-color: $sand;
   color: rgb(248, 248, 248);
   margin-right: 16px;
+  border: none;
   &:hover {
     color: rgb(248, 248, 248);
   }

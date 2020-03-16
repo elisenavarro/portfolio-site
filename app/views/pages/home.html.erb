@@ -33,9 +33,9 @@
     <div class="skills">
       <div class="skills-tools">
         <h2>Skills & Tools</h2>
-        <p>I learned to code with <a href="https://www.lewagon.com/" target="blank" class="p-link">Le Wagon</a> in Barcelona, Spain in 2019. I'm committed to learning and growing my knowledge base in order to become a more efficient developer.</p>
+        <p>I learned to code with <a href="https://www.lewagon.com/" target="blank" class="p-link">Le Wagon</a> in Barcelona, Spain in 2019. I'm committed to continued learning and am always striving to become a more efficient developer.</p>
       </div>
-      <div class="skills-list" style="text-align: right">
+      <div class="skills-list">
         <div class="skills-front">
           <h4>Front-End</h4>
           <ul class="list-unstyled">
@@ -43,6 +43,7 @@
             <li><p>Bootstrap</p></li>
             <li><p>JavaScript ES6/jQuery</p></li>
             <li><p>AJAX & DOM Events</p></li>
+            <li><p>UX/UI Design</p></li>
           </ul>
         </div>
         <div class="skills-back">
@@ -60,7 +61,6 @@
           <ul class="list-unstyled">
             <li><p>Product Management</p></li>
             <li><p>Data Analysis</p></li>
-            <li><p>UX/UI Design</p></li>
             <li><p>Digital Marketing Strategy</p></li>
             <li><p>Scrum/Agile Methodology</p></li>
             <li><p>Public Speaking & Teaching</p></li>
@@ -93,11 +93,30 @@
       </div>
     </div>
   </div>
+
   <div class="container">
     <div class="contact-me">
       <h2>Let's Connect</h2>
       <p>Interested in working together? Drop me a line.</p>
-      <p>elise.marie.navarro@gmail.com</p>
+      <br>
+      <form class="contact-form" accept-charset="utf-8" action="https://formspree.io/elise.marie.navarro@gmail.com" method="post">
+          <div class="form-first-row">
+            <input type="hidden" name="_subject" value="New Form Submission" />
+            <label> Full Name
+              <input type="text" name="name" class="form-field name-field">
+            </label>
+            <label> Email
+              <input type="text" name="_replyto" class="form-field email-field">
+            </label>
+          </div>
+          <br>
+          <label class="d-flex"> Message
+            <textarea name="message" class="form-field message-field"></textarea>
+          </label>
+          <br>
+          <button type="submit" class="site-btn project-btn txt">Send</button>
+        </form>
+      </div>
     </div>
   </div>
 </div>
