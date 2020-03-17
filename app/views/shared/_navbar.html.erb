@@ -1,8 +1,30 @@
-<div class="navbar navbar-expand-sm navbar-light navbar-portfolio">
-  <a style="text-decoration:none" href="#">
+<div class="navbar navbar-expand-sm navbar-portfolio">
+  <%= link_to root_path do %>
     <h3 class="navbar-logo">ELISE NAVARRO</h3>
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <% end %>
+  <% if current_page?("/") %>
+    <div class="nav-links">
+      <div class="nav-link" id="btn-about">ABOUT</div>
+      <div class="nav-link" id="btn-projects">PROJECTS</div>
+      <div class="nav-link" id="btn-contact">CONTACT</div>
+    </div>
+  <% end %>
+</div>
+
+<div class="small-device-nav">
+  <%= link_to root_path do %>
+    <h3 class="logo">ELISE NAVARRO</h3>
+  <% end %>
+  <% if current_page?("/") %>
+    <div class="nav-links">
+      <div class="nav-link" id="btn-about">ABOUT</div>
+      <div class="nav-link" id="btn-projects">PROJECTS</div>
+      <div class="nav-link" id="btn-contact">CONTACT</div>
+    </div>
+  <% end %>
+</div>
+
+<!--   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -13,4 +35,4 @@
       <li><a class="nav-link" id="btn-contact">CONTACT</a></li>
     </ul>
   </div>
-</div>
+</div> -->

@@ -4,7 +4,7 @@ const buttonScroll = (event) => {
   const buttonContact = document.getElementById("btn-contact");
 
   buttonAbout.addEventListener('click', () => window.scrollTo({
-    top: 640,
+    top: 840,
     behavior: 'smooth',
   }));
 
