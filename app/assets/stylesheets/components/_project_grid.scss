@@ -1,7 +1,13 @@
 .projects {
-  padding: 80px 0px 80px 0px;
+  padding-top: 80px;
   display: flex;
-  width: 100%;
+}
+
+.projects-details {
+  width: 80%;
+  .p-projects {
+    width: 100%;
+  }
 }
 
 .project-card {
@@ -29,7 +35,7 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 16px;
   column-gap: 40px;
-  width: 100%;
+  width: 150%;
   margin-left: 40px;
   margin-right: 0px;
 }
@@ -66,7 +72,7 @@
   }
 
   .p-projects {
-    width: 96% !important;
+    // width: 96% !important;
     margin-bottom: 40px;
   }
 }
