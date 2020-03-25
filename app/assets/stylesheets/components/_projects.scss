@@ -1,20 +1,37 @@
+.project-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  padding-top: 40px;
+  height: 300px;
+  background-color: $light-gray;
+}
+
+.project-details {
+  padding: 0px 16px;
+  margin-left: 112px;
+  margin-right: 16px;
+}
+
 .back-arrow {
   z-index: 12;
   display: flex;
   position: fixed;
+  font-size: 12px;
   top: 50%;
   left: 60px;
   transform: translate(-50%, -50%);
   text-align: center;
   color: black;
-  h4 {
+  p {
     color: black;
     padding-left: 8px;
   }
 }
 
 .project-links {
-  padding: 16px 40px;
+  padding: 16px 0px;
 }
 
 .site-btn {
@@ -22,43 +39,53 @@
   color: rgb(248, 248, 248);
   margin-right: 16px;
   border: none;
+  padding: 10px 20px;
   &:hover {
     color: rgb(248, 248, 248);
   }
 }
 
 .source-btn {
-  outline: solid 1px #1C1A20;
+  color: $sand;
+  outline: solid 1px $sand;
   outline-offset: -1px;
+  padding: 10px 20px;
   &:hover {
     color: #1C1A20;
   }
 }
 
-.image_gallery {
+.image-gallery {
   display: flex;
   margin: 160px 0px 96px 0px;
 }
 
-.show-imgs {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 20px;
-  width: 100%;
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
   margin-left: 112px;
-  margin-right: 0px;
-  margin-bottom: 0px;
+  column-gap: 10px;
+  .show-imgs {
+    flex: 0 0 auto;
+  }
 }
+
+// .show-imgs {
+//   display: grid;
+//   grid-template-columns: 1fr 1fr;
+//   column-gap: 20px;
+//   width: 100%;
+//   margin-left: 112px;
+//   margin-right: 0px;
+//   margin-bottom: 0px;
+// }
 
 .show-img {
-  width: 320px;
+  width: 250px;
+  margin: 0px 10px 40px 10px;
   margin-bottom: 40px;
-}
-
-.about-project {
-  padding: 0px 16px;
-  margin-left: 144px;
-  margin-right: 16px;
+  border: solid 1px $light-gray;
 }
 
 
@@ -80,11 +107,11 @@
     display: block;
   }
 
-  .skills {
+  #project-container {
     display: block;
   }
 
-  .about-project {
+  .projects-details {
     margin: 0px;
     padding: 0px;
     padding: 0px 16px 0px 0px;
