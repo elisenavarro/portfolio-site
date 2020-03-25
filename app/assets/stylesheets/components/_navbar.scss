@@ -33,6 +33,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
   color: gray;
   transform: translate(52%, 0%);
 }
@@ -51,7 +52,7 @@
   text-decoration: none;
   li:hover {
     color: $sand;
-    text-decoration: none
+    text-decoration: none;
   }
 }
 

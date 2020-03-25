@@ -35,6 +35,21 @@
   transition-timing-function: ease;
 }
 
+.welcome-txt {
+  z-index: 5;
+  margin: 0px;
+  padding: 32px;
+  position: absolute;
+  top: 50%;
+  right: -20px;
+  background-color: white;
+  transform: translate(100%, 0%);
+  width: 410px;
+  transition: 1s;
+  transition-delay: 0.1s;
+  transition-timing-function: ease;
+}
+
 .arrow {
   position: absolute;
   top: 88%;
@@ -58,7 +73,7 @@
 .intro-about-me {
   display: block;
   width: 100%;
-  padding: 40px 0px 20px;
+  padding: 40px 0px 30px;
   display: inline-block;
   background-color: $light-gray;
   margin-top: 40px;
@@ -69,9 +84,11 @@
   align-items: center;
   justify-content: center;
   margin-top: 40px;
-}
-
-.about-me p {
-  margin-right: 10px;
-  padding-top: 10px;
+  p {
+    margin-right: 10px;
+    padding-top: 10px;
+  }
+  h2 {
+    color: $sand;
+  }
 }

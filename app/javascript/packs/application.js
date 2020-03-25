@@ -21,3 +21,6 @@ import "bootstrap";
 
 import { buttonScroll } from "./nav_links.js";
 buttonScroll();
+
+import { checkScroll } from "./intro_scroll_animation.js";
+checkScroll();

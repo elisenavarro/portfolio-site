@@ -1,3 +1,7 @@
+#project-intro-h1 {
+  font-size: 90px !important;
+}
+
 .project-info {
   display: flex;
   align-items: center;
@@ -16,7 +20,7 @@
 
 .back-arrow {
   z-index: 12;
-  display: flex;
+  display: -webkit-inline-box;
   position: fixed;
   font-size: 12px;
   top: 50%;
@@ -70,16 +74,6 @@
     flex: 0 0 auto;
   }
 }
-
-// .show-imgs {
-//   display: grid;
-//   grid-template-columns: 1fr 1fr;
-//   column-gap: 20px;
-//   width: 100%;
-//   margin-left: 112px;
-//   margin-right: 0px;
-//   margin-bottom: 0px;
-// }
 
 .show-img {
   width: 250px;

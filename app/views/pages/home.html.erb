@@ -2,6 +2,7 @@
   <div class="intro-banner">
     <%= image_tag "Sand.jpg", alt: "Homepage Image", class: "intro-background", style: "object-fit: cover; top: 0; left: 0"  %>
     <h1 class="intro-h1">Not Your<br>Average<br>Software<br>Developer.</h1>
+    <h3 class="welcome-txt">Imagine, design and create <br> memorable digital experiences.</h3>
     <div class="arrow">
       <p class="arrow-txt">Scroll</p>
       <i class="fas fa-long-arrow-alt-down"></i>
@@ -12,16 +13,17 @@
     <div class="container" style="display: flex; align-items: center; justify-content: space-evenly;">
       <%= image_tag "Headshot-Portfolio.jpg", alt: "Elise Navarro", class: "avatar"%>
       <div class="about-me">
-        <h2>Hi, I'm Elise.</h2>
+        <h2>HI, I'M ELISE.</h2>
         <p>
           I'm a Denver based full-stack developer seeking new career opportunities.
           <br>
           <br>
           I'm a multi-faceted developer with a background in digital marketing and data analysis.
-          <br>I'm innately curious, empathic and open-minded. I'm a programmer who loves grammar, <br>syntax and digging into the details.
+          <br>I'm innately curious, empathic and open-minded. I'm a programmer who loves grammar, <br>syntax and digging into the details. My work is fueled by passion, dedication, and a lot of coffee.
           <br>
           <br>
-          My interested include learning languages [programming & human], traveling, teaching <br>Pilates and building connections through tech and fitness.
+          My interests include learning languages [programming & human], traveling, exploring <br>
+          the outdoors, teaching Pilates and building connections through tech and fitness.
         </p>
       </div>
      </div>
@@ -30,7 +32,7 @@
   <div class="container">
     <div class="skills">
       <div class="skills-tools">
-        <h2>Skills & Tools</h2>
+        <h2>SKILLS & TOOLS</h2>
         <p>I learned to code with <a href="https://www.lewagon.com/" target="blank" class="p-link">Le Wagon</a> in Barcelona, Spain in 2019. I'm committed to continued learning and am always striving to become a more efficient developer.</p>
       </div>
       <div class="skills-list">
@@ -71,7 +73,7 @@
   <div class="container">
     <div class="projects">
       <div class="projects-details">
-        <h2>Projects</h2>
+        <h2>PROJECTS</h2>
         <p class="p-projects">Here are some of the projects I designed and built during development sprints at Le Wagon. Each web application is built with the Ruby on Rails framework.</p>
       </div>
       <div class="project-cards row">
@@ -82,7 +84,7 @@
               <%= image_tag project.image_gallery, alt: "Project image" %>
                 <div class="project-card-txt">
                   <h3><%= project.title %></h3>
-                  <p><%= project.description %></p>
+                  <p><%= project.tagline %></p>
                 </div>
               </div>
             <% end %>
@@ -94,7 +96,7 @@
 
   <div class="container">
     <div class="contact-me">
-      <h2>Let's Connect</h2>
+      <h2>LET'S CONNECT</h2>
       <p>Interested in working together? Drop me a line.</p>
       <br>
       <form class="contact-form" accept-charset="utf-8" action="https://formspree.io/elise.marie.navarro@gmail.com" method="post">
