@@ -13,7 +13,7 @@ const checkScroll = (event) => {
         welcomeText.style.top = "65%";
       } else {
         introBackground.style.left = "0px";
-        welcomeText.style.right = "-456px";
+        welcomeText.style.right = "-50px";
         welcomeText.style.top = "65%";
       }
     } else {
@@ -24,7 +24,7 @@ const checkScroll = (event) => {
       } else {
         introText.style.right = "50%";
         introBackground.style.left = "0px";
-        welcomeText.style.right = "-456px";
+        welcomeText.style.right = "-50px";
       }
     }
   });
