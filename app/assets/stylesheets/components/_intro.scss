@@ -35,6 +35,21 @@
   transition-timing-function: ease;
 }
 
+.welcome-txt {
+  z-index: 5;
+  margin: 0px;
+  padding: 32px;
+  position: absolute;
+  top: 50%;
+  right: -20px;
+  background-color: white;
+  transform: translate(100%, 0%);
+  width: 26%;
+  transition: 1s;
+  transition-delay: 0.1s;
+  transition-timing-function: ease;
+}
+
 .arrow {
   position: absolute;
   top: 88%;
@@ -69,9 +84,16 @@
   align-items: center;
   justify-content: center;
   margin-top: 40px;
+  p {
+    margin-right: 10px;
+    padding-top: 10px;
+  }
+  h2 {
+    color: $sand;
+  }
 }
 
-.about-me p {
-  margin-right: 10px;
-  padding-top: 10px;
-}
+// .about-me p {
+//   margin-right: 10px;
+//   padding-top: 10px;
+// }
