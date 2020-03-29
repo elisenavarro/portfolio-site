@@ -62,13 +62,6 @@
 .arrow-txt {
   transform: rotate(-90deg);
 }
-
-@media(max-width: 768px) {
-  .intro-h1 {
-    font-size: 5em;
-  }
-}
-
 // INTRO PARAGRAPH
 .intro-about-me {
   display: block;
@@ -92,3 +85,15 @@
     color: $sand;
   }
 }
+
+@media(max-width: 768px) {
+  .intro-h1 {
+    font-size: 4em !important;
+    max-width: 315px;
+  }
+  #intro-about-me-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+

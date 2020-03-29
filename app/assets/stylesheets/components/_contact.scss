@@ -60,7 +60,8 @@ button {
 @media(max-width: 768px) {
   .contact-me {
     width: 100%;
-    margin-bottom: 40px;
+    padding-top: 30px;
+    text-align: center;
   }
 
   .contact-form {
@@ -91,12 +92,12 @@ button {
   }
 
   .email-field {
-    margin-left: 45px !important;
+    margin-left: 40px !important;
   }
 
   .message-field {
     margin-right: 16px;
-    margin-left: 4px !important;
+    margin-left: 18px !important;
     margin-top: -22px;
   }
 

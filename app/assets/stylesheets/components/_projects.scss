@@ -90,7 +90,6 @@
 
   .show-imgs {
     display: block;
-    margin: 0px;
   }
 
   .show-img {
@@ -99,21 +98,38 @@
 
   .image-gallery {
     display: block;
+    margin: 60px 0px 60px 0px;
+  }
+
+  .project-info {
+    height: auto;
   }
 
   #project-container {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
 
-  .projects-details {
+  #projects-details-about {
     margin: 0px;
-    padding: 0px;
-    padding: 0px 16px 0px 0px;
   }
 
   .project-links a {
     display: block;
     margin: 16px 0px 16px 0px;
     text-align: center;
+  }
+
+  .scrolling-wrapper-flexbox {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin-left: 0px;
+  column-gap: 10px;
+  .show-imgs {
+    flex: 0 0 auto;
+    }
   }
 }

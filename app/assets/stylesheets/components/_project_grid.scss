@@ -60,6 +60,12 @@
 @media(max-width: 768px) {
   .projects {
     display: block;
+    padding-top: 60px;
+  }
+
+  .projects-details {
+    width: 100%;
+    text-align: center;
   }
 
   .project-card {

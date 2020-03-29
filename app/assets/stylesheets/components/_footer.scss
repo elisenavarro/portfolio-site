@@ -24,3 +24,13 @@
 .footer-links a:hover {
   opacity: 1;
 }
+
+@media(max-width: 768px) {
+  .footer {
+    padding: 0px 10px;
+  }
+
+  .footer-copyright {
+    text-align: right;
+  }
+}

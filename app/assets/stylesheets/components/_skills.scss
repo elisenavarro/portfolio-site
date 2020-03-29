@@ -44,7 +44,13 @@
 
 @media(max-width: 768px) {
   .skills {
-    padding-top: 40px;
+    padding-top: 60px;
+    flex-direction: column;
+  }
+
+  .skills-tools {
+    width: 100%;
+    text-align: center;
   }
 
   .skills > div > p {
@@ -62,10 +68,10 @@
       display: inline-grid;
     }
     div:first-child {
-      margin-bottom: 64px;
+      margin-bottom: 25px;
     }
     div:last-child {
-      margin-top: 64px;
+      margin-top: 25px;
     }
   }
 }
