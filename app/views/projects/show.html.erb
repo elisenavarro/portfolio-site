@@ -4,7 +4,7 @@
 
 <div class="body-container">
   <div class="intro-banner">
-    <%= image_tag (@project.image_gallery), alt: "Project Image", class: "intro-background", style: "object-fit: cover" %>
+    <%= image_tag (@project.image_gallery), alt: "Project Image", class: "intro-background", style: "object-fit: cover; object-position: 70% 0"; %>
     <h1 class="intro-h1" id="project-intro-h1"><%= @project.title %></h1>
     <h3 class="welcome-txt"><%= @project.tagline %></h3>
     <div class="arrow">
