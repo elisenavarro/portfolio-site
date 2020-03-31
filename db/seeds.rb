@@ -16,7 +16,7 @@ hivie_img3 = ProjectImage.create(project: hivie, image_url: 'HiVie_3.png')
 hivie_img4 = ProjectImage.create(project: hivie, image_url: 'HiVie_4.png')
 hivie_img5 = ProjectImage.create(project: hivie, image_url: 'HiVie_5.png')
 
-rent_tent = Project.create(title: 'Rent-a-Tent', description: 'Rent-a-Tent is a web-based, Airbnb clone that was built in a 5-day sprint at Le Wagon. Rent-a-Tent allows owners to list thier tents for campers to book for camping and backpacking trips.', image_gallery: 'rent-a-tent.jpg', tagline: 'Camp more. Worry Less.', site_url: 'https://rent-a-tent-341.herokuapp.com/', source_url: 'https://github.com/Hamzif/-rent_a_tent')
+rent_tent = Project.create(title: 'Rent-a-Tent', description: 'Rent-a-Tent is a web-based, Airbnb clone that was built in a 5-day sprint at Le Wagon. Go camping without investing in expensive gear. Rent-a-Tent was built for campers who are looking to explore the outdoors without investing in expensive camping gear. Rent-a-Tent allows tent owners to list their unused tents for campers to book for upcoming camping and backpacking trips.', image_gallery: 'rent-a-tent.jpg', tagline: 'Camp more. Worry Less.', site_url: 'https://rent-a-tent-341.herokuapp.com/', source_url: 'https://github.com/Hamzif/-rent_a_tent')
 
 rent_tent_1 = ProjectImage.create(project: rent_tent, image_url: 'rent-a-tent-home.png')
 rent_tent_2 = ProjectImage.create(project: rent_tent, image_url: 'tent-index.png')
