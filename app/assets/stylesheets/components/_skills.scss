@@ -1,11 +1,13 @@
 .skills {
   padding-top: 80px;
   display: flex;
-  // width: 100%;
 }
 
 .skills-tools {
   width: 80%;
+  p {
+    width: 100%;
+  }
 }
 
 .p-link {
