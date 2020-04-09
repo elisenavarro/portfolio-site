@@ -56,12 +56,8 @@
   }
 }
 
-.small-device-nav {
-  display: none;
-}
-
 @media(max-width: 768px) {
-  .small-device-nav {
+  .navbar {
     display: flex;
   }
 
