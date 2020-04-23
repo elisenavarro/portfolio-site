@@ -50,9 +50,17 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  li:hover {
+  &:hover {
     color: $sand;
     text-decoration: none;
+  }
+}
+
+#btn-resume{
+  color: gray;
+  text-decoration: none;
+  &:hover {
+  color: $sand;
   }
 }
 

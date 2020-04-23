@@ -8,7 +8,7 @@ const checkScroll = (event) => {
 
     if (viewWidth < 768) {
       if (currentScrollPosition > 0) {
-        introBackground.sytle.left = "50%";
+        introBackground.style.left = "50%";
         welcomeText.style.right = "100%";
         welcomeText.style.top = "65%";
       } else {
