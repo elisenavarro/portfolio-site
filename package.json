@@ -6,7 +6,9 @@
     "bootstrap": "^4.4.1",
     "jquery": "^3.5.0",
     "minimist": "^1.2.2",
-    "popper.js": "^1.16.0"
+    "popper.js": "^1.16.0",
+    "serialize-javascript": "^3.1.0",
+    "yargs-parser": "^13.1.2"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.9.6",
