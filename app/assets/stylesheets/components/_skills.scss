@@ -37,7 +37,7 @@
       li {
         margin: -8px 0px;
         p {
-          color: rgba(255, 255, 255, 0.5);
+          color: rgba(255, 255, 255, 0.6);
         }
       }
     }
@@ -53,6 +53,7 @@
   .skills-tools {
     width: 100%;
     text-align: center;
+    margin-bottom: 40px;
   }
 
   .skills > div > p {
@@ -65,7 +66,7 @@
     display: inline-block;
     width: 100%;
     margin: 0px;
-    text-align: left;
+    text-align: center;
     .list-unstyled {
       display: inline-grid;
     }
