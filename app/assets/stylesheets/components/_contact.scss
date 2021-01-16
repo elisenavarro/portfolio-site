@@ -33,7 +33,8 @@ label {
     margin-left: 8px;
     &:focus {
       box-shadow: none;
-      border: red solid 1px;
+      border: black solid 1px;
+      outline: none;
     }
   }
   textarea {
